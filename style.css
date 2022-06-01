@@ -1,0 +1,125 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://kiraberthelsen.com/Isitprototype/
+Template: astra
+Author: Kira B
+Author URI: https://kiraberthelsen.com/Isitprototype/
+Description: Astra child theme
+Version: 1.1.1652281313
+Updated: 2022-05-11 16:01:53
+
+*/
+
+
+/*Laver en float animation på shop page ved brug ag transform og transition properties*/
+
+#eael-product-grid li {
+    transform: translate(0, 0px);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#eael-product-grid li:hover {
+    transform: translate(0, -5px);
+}
+
+/* fjern cart fra popup over shop items */
+#eael-product-grid li.add-to-cart > a {
+    display: none;
+}
+
+/* fjern link fra popup over shop items*/
+#eael-product-grid li.view-details > a {
+    display: none;
+}
+
+
+
+/* fjern padding fra shop page grundet custom shop page sat ind med shortcode*/
+#post-474 > div > div > section > div > div > div {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/*Laver en float animation på shop kontaktlinser siden ved brug ag transform og transition properties*/
+
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fd0b3df.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-0655842 > div {
+    transform: translate(0, 0px);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fd0b3df.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-0655842 > div:hover {
+    transform: translate(0, -1px);
+}
+
+/* Removing text decoration from "shop kontaktlinser online" */
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fd0b3df.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-0655842 > div > div > div > h2 > a {
+    text-decoration: none;
+}
+
+/* Removing text decoration from 3 post elements on front page */
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element > div > section > div > div > div > div > div > h3 > a {
+    text-decoration: none;
+}
+
+/*hover effect on 3 post elements on front page */
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element > div > section > div > div > div {
+    transform: translate(0, 0px);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element > div > section > div > div > div:hover {
+    transform: translate(0, -2px);
+}
+
+
+/*removing text decoratin from instagram handle */
+#post-116 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-10c0405.elementor-hidden-mobile.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-8a478f1 > div > div > div > h2 > a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.single_add_to_cart_button #text {
+    display: none;
+}
+
+.single_add_to_cart_button:after {
+    content: 'Køb nu';
+}
+*/
+
+
+/* fjern button fra single shop page og lav ny*/
+
+/*
+.single_add_to_cart_button {
+    visibility: hidden;
+}
+
+.single_add_to_cart_button:after {
+  content:'Køb Nu';
+  visibility: visible;
+  display: block;
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  top: 2px;
+}
+*/
